@@ -1,1 +1,157 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><script defer="defer" src="/static/js/main.6824bca3.js"></script><link href="/static/css/main.d14cb5bd.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ram Sankar Koripalli | Portfolio</title>
+<link rel="icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <nav>
+    <h1>Ram Sankar Koripalli</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section id="hero" class="fade-in">
+  <img src="ram.jpg" alt="Ram Sankar Koripalli">
+  <h2>Machine Learning Engineer</h2>
+  <p>Designing scalable AI solutions with 4.5 years of software engineering experience</p>
+</section>
+<section id="about" class="fade-in">
+  <h2>Summary</h2>
+  <p>Machine Learning Engineer leveraging 4.5 years of software engineering expertise to design, optimize, and deploy scalable AI solutions. Proven track record in GPU kernel development with CUDA, open-source LLM inference, and AI-driven test automation. Strong background in microservices, prompt engineering, and performance tuning in enterprise environments.</p>
+</section>
+<section id="skills" class="fade-in">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li>Python, C++, C, Go, Java, CUDA, JavaScript, SQL, Bash</li>
+    <li>PyTorch, TensorFlow, scikit-learn, ONNX, Hugging Face Transformers, LangChain, LLaMA</li>
+    <li>CUDA (cuBLAS, cuDNN), nvprof, NVIDIA Nsight</li>
+    <li>Docker, Kubernetes, Helm, AWS, GitHub Actions, Jenkins</li>
+    <li>Redis, Kafka, NATS, REST, gRPC, Prometheus</li>
+    <li>Microservices, CI/CD, Test Automation, GitHub Copilot, Prompt Engineering</li>
+  </ul>
+</section>
+<section id="projects" class="fade-in">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>GPU Kernel Optimization & Development <small>(Jun 2025–Present)</small></h3>
+    <ul>
+      <li>Engineered custom CUDA kernels achieving a 4× speed-up over cuBLAS.</li>
+      <li>Optimized memory coalescing and thread block configurations, reducing execution time by 35%.</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h3>LLaMA-based LLM Inference Engine <small>(May 2025–Present)</small></h3>
+    <ul>
+      <li>Built an inference pipeline for the LLaMA 7B model using PyTorch and ONNX.</li>
+      <li>Implemented batching and async handling to support 50+ concurrent inferences with latency &lt;150ms.</li>
+      <li>Developed prompt templates and fine-tuning scripts improving answer relevance by 20%.</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h3>AI-driven Unit Test Generation <small>(Feb 2024–Present)</small></h3>
+    <ul>
+      <li>Integrated GitHub Copilot to auto-generate Go unit tests, reducing manual effort by 70%.</li>
+      <li>Validation framework increased code coverage by 15% across services.</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h3>Two Truths One Lie <small>(Jan 2025–Feb 2025)</small></h3>
+    <ul>
+      <li>Interactive trivia game using LangChain and Streamlit to generate and evaluate facts vs. lies.</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h3>Meme Recommendation System <small>(Apr 2023–May 2023)</small></h3>
+    <ul>
+      <li>Recommendation engine in Django with Redis and DynamoDB, achieving a 5× speedup in retrieval.</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h3>Facial Action Unit Scoring System <small>(Feb 2023–May 2023)</small></h3>
+    <ul>
+      <li>Video processing pipeline using Swin Transformer and OpenCV to extract facial action unit scores.</li>
+    </ul>
+  </div>
+</section>
+<section id="experience" class="fade-in">
+  <h2>Professional Experience</h2>
+  <div class="experience-item">
+    <h3>Hewlett Packard Enterprise, Durham, USA <small>Software Development Engineer | Feb 2024–Present</small></h3>
+    <ul>
+      <li>Developed high-performance Go microservices enhancing secure configuration and authentication workflows.</li>
+      <li>Led a NATS-based functional test suite for authorization services.</li>
+      <li>Designed a Health Check Manager integrated in Kubernetes probes for four microservices.</li>
+      <li>Pioneered AI-driven unit test generation using prompt engineering and GitHub Copilot.</li>
+    </ul>
+  </div>
+  <div class="experience-item">
+    <h3>Hewlett Packard Enterprise <small>Software Engineer Intern | May 2023–Aug 2023</small></h3>
+    <ul>
+      <li>Architected a quality metrics dashboard aggregating CI results from 630 GitHub repos.</li>
+      <li>Optimized result extraction with a push-based S3 and GitHub Actions integration, boosting efficiency by 350%.</li>
+    </ul>
+  </div>
+  <div class="experience-item">
+    <h3>Oracle Corporation, Bengaluru, India <small>Senior Member of Technical Staff | Oct 2021–Aug 2022</small></h3>
+    <ul>
+      <li>Automated alert system for code coverage drops, improving release quality.</li>
+      <li>Built a relationship-mapping tool with Oracle PGX and Redis to deduplicate RDBMS test suites.</li>
+      <li>Enhanced block-level coverage for Oracle GoldenGate from 52% to 77%.</li>
+    </ul>
+  </div>
+  <div class="experience-item">
+    <h3>Oracle Corporation <small>Member of Technical Staff | Jul 2019–Oct 2021</small></h3>
+    <ul>
+      <li>Implemented an ANTLR-based linter processing 600 daily requests.</li>
+      <li>Accelerated test selection by 2.3× through multithreaded CLOB reads with OCCI in C++.</li>
+      <li>Built an RNN text classifier for automated root cause analysis in RDBMS error messages.</li>
+    </ul>
+  </div>
+  <div class="experience-item">
+    <h3>JP Morgan & Chase, Hyderabad, India <small>Machine Learning Intern | May 2018–Jul 2018</small></h3>
+    <ul>
+      <li>Developed RNN/TensorFlow models for credit card fraud detection with 94% accuracy.</li>
+    </ul>
+  </div>
+</section>
+<section id="education" class="fade-in">
+  <h2>Education</h2>
+  <div class="education-item">
+    <h3>Texas A&amp;M University, College Station <small>MS in Computer Science | Aug 2022–Dec 2023</small></h3>
+    <p>GPA: 4.0/4.0</p>
+  </div>
+  <div class="education-item">
+    <h3>National Institute of Technology, Tiruchirappalli <small>BTech in Computer Science &amp; Management Studies | Jul 2015–May 2019</small></h3>
+    <p>GPA: 8.54/10.0</p>
+  </div>
+</section>
+<section id="achievements" class="fade-in">
+  <h2>Achievements</h2>
+  <ul>
+    <li>Academic Scholarship — Texas A&amp;M CSE Dept ($1K) for outstanding performance (2023)</li>
+    <li>ET Campus Stars Challenger Award — Top 34/5000 candidates nationwide (2018)</li>
+  </ul>
+</section>
+<section id="contact" class="fade-in">
+  <h2>Contact</h2>
+  <p>Phone: <a href="tel:+19796350305">+1-979-635-0305</a></p>
+  <p>Email: <a href="mailto:ramshankar797@gmail.com">ramshankar797@gmail.com</a></p>
+  <p><a href="https://linkedin.com/in/ramsankar797/" target="_blank" rel="noopener">LinkedIn</a> | <a href="https://github.com/RAM797" target="_blank" rel="noopener">GitHub</a></p>
+</section>
+<footer>
+  <p>&copy; Ram Sankar Koripalli</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
